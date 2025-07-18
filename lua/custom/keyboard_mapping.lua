@@ -11,6 +11,6 @@ function imap(shortcut, command)
 end
 
 imap("jk", "<esc>")
-
+nmap("<C-p>", "<cmd> Telescope find_files <CR>")
 --imap("a-<CR>", "<esc>O")
 

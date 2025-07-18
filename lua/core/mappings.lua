@@ -1,4 +1,4 @@
--- n, v, i, t = mode names
+-- n, v, i, t = mode namespace
 
 local M = {}
 

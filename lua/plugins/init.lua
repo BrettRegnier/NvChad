@@ -2,7 +2,7 @@
 -- List of all default plugins & their definitions
 local default_plugins = {
 
-  "nvim-lua/plenary.nvim",
+  "nvim-lua/plenary.nvim", 
 
   {
     "NvChad/base46",

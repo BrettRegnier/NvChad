@@ -20,3 +20,10 @@ dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
 require "custom/keyboard_mapping"
+
+-- Godot auto listen
+local godot_project = io.open(vim.fn.getcwd() .. '/project.godot', 'r')
+if godot_project then
+  io.close(godot_project)
+  vim.fn.serverstart './godothost'
+end
